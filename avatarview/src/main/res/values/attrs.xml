@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AvatarView">
+
+        <attr name="mode" format="enum">
+            <enum name="COLOR" value="1" />
+            <enum name="GRADIENT" value="3" />
+        </attr>
+
+        <attr name="gradient" format="enum">
+            <enum name="gradient_berry_smoothie" value="1" />
+            <enum name="gradient_coastal_breeze" value="2" />
+            <enum name="gradient_deep_sea" value="3" />
+            <enum name="gradient_evening_delight" value="4" />
+            <enum name="gradient_firebrick" value="5" />
+            <enum name="gradient_fizzy_peach" value="6" />
+            <enum name="gradient_fresh_papaya" value="7" />
+            <enum name="gradient_lemon_drizzle" value="8" />
+            <enum name="gradient_mystic_mauve" value="9" />
+            <enum name="gradient_neon_glow" value="10" />
+            <enum name="gradient_new_leaf" value="11" />
+            <enum name="gradient_new_life" value="12" />
+            <enum name="gradient_ocean_blue" value="13" />
+            <enum name="gradient_october_silence" value="14" />
+            <enum name="gradient_orange_juice" value="15" />
+            <enum name="gradient_pink_sugar" value="16" />
+            <enum name="gradient_pixie_dust" value="17" />
+            <enum name="gradient_purple_lake" value="18" />
+            <enum name="gradient_reflex_silver" value="19" />
+            <enum name="gradient_sanguine" value="20" />
+            <enum name="gradient_sharp_blues" value="21" />
+            <enum name="gradient_spring_greens" value="22" />
+            <enum name="gradient_sweet_dream" value="23" />
+            <enum name="gradient_ultramarine" value="24" />
+            <enum name="gradient_victoria_purple" value="25" />
+        </attr>
+
+        <attr name="gradientMode" format="enum">
+            <enum name="CLAMP" value="1" />
+            <enum name="MIRROR" value="2" />
+            <enum name="REPEAT" value="3" />
+        </attr>
+        <attr name="gradientSteps" format="integer" />
+
+        <attr name="circleRadius" format="dimension" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="android:text" format="string" />
+        <attr name="android:textColor" format="color" />
+        <attr name="android:textSize" format="dimension" />
+        <attr name="enableCustomGradient" format="boolean" />
+        <attr name="startColor" format="color" />
+        <attr name="endColor" format="color" />
+        <attr name="reversedGradient" format="boolean" />
+        <attr name="textOnTop" format="boolean" />
+        <attr name="imageOnly" format="boolean" />
+    </declare-styleable>
+</resources>
