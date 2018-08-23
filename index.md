@@ -1,4 +1,8 @@
-# avatar-view
+---
+layout: default
+title: Introducing AvatarView
+---
+
 Library for adding awesome avatars in your andorid project
 
 ## Current Version
