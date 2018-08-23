@@ -1,18 +1,21 @@
-<div class="sidebar">
-    <div class="sidebar-content">
-        <div class="site-title"><span>{{ site.title }}</span></div>
-        <div class="site-desc"><span>{{ site.description }}</span></div>
-        <div class="sidebar-nav">
-            <ul class="sidebar-ul">
-                <li class="sidebar-li"><a href="#">Introduction</a></li>
-                <li class="sidebar-li"><a href="#">Documentation</a></li>
-                <li class="sidebar-li"><a href="#">Download</a></li>
-                <li class="sidebar-li"><a href="#">Usage</a></li>
-                <li class="sidebar-li"><a href="#">Licence</a></li>
-            </ul>
-        </div>
-    <div class="site-version"><span>Currently {{ site.version }}</span></div>
-    <div class="site-github"><span>Fork me on <a href="">Github</a>.</span></div>
-    <div class="site-copyright"><span>&copy; 2018. <a href="{{ site.github_profile }}">Birju Vachhani</a></span></div>
-    </div>
+<div id="sidebar">
+  <header>
+    <{% if page.layout == "index" %}h1{% else %}div{% endif %} class="site-title">
+      <a href="{{ site.baseurl }}/">
+        {% unless page.url == "/" %}
+          <span class="back-arrow icon">{% include svg/back-arrow.svg %}</span>
+        {% endunless %}
+        {{ site.title }}
+      </a>
+    </{% if page.layout == "index" %}h1{% else %}div{% endif %}>
+    <p class="lead">{{ site.description }}</p>
+  </header>
+  {% include sidebar-nav-links.html %}
+
+  {% if site.version %}
+    <span class="site-version">Currently v{{ site.version }}</span>
+  {% endif %}
+
+  <div class="site-github"><span>Fork me on <a href="{{ site.baseurl }}">Github</a>.</span></div>
+  {% include copyright.html %}
 </div>

@@ -1,77 +1,77 @@
+---
+# Use a comment to ensure Jekyll reads the file to be transformed into CSS later
+# only main files contain this front matter, not partials.
+---
+
+@import "hydeout";
+
+body{
+    background-image: none;
+}
 
 .sidebar{
-    position:fixed;
-    width: 18rem;
     background-color: #202020;
-    padding: 2rem;
-    left: 0px;
-    float: left;
-    text-align: left;
-    top: 0px;
-    height: 100%;
-    color: #fcfcfc;
-    font-family: 'Times New Roman', Times, serif
+}
+#sidebar a:hover, #sidebar a:focus{
+    text-decoration: none;
 }
 
-body
-{
-    padding: 0px;
-    margin: 0px;
-    display: flex;
+#sidebar .site-title {
+    font-size: 2.25rem;
 }
 
-.sidebar-content
-{
-    position:absolute;                 
-    bottom:5rem;
-    left:0;
-    height: fit-content;
+.home #sidebar .site-title {
+    font-size: 2.25rem;
+    color: #ffffff;
 }
 
-.site-title
+.site-title a
 {
     font-weight: bold;
-    font-size: 4.5rem;
-    margin-left: 3rem;
     color: #FFFFFF;
     display: block;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.site-desc
+p.lead
 {
-    font-size: 1rem;
-    margin-left: 2rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
+    font-size: 0.8rem;
     color: #c8c8c8;
     background-color: #2c2c2c;
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 3px;
-    line-height:24px;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
 }
 
 .sidebar-nav
 {
-    width:300px;
-    margin-top:10px;
     transition: all 0.3s linear;
 }
 
 .sidebar-ul
 {
     list-style-type:none;
-    margin-left: 2rem;
     padding:0;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.site-version
+{
+    color: #707070;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .sidebar-li a{
     height:45px; 
     text-decoration:none;
     display:block;
-    line-height:45px;
-    width: 100%;
+    line-height:45px;    
     padding-left: 1rem;
     color:#fcfcfc;
     font-size: 1.1rem;
@@ -111,33 +111,23 @@ body
     border-color: #009688;
 }
 
-.site-version
-{
-    margin-left: 2rem;
-    padding-left: 1.25rem;
-    color:#707070;
-    font-size: 1.1rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.site-github
-{
-    font-size: 1rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
+.site-github {
+    font-size: 0.8rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
     color: #c8c8c8;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     background-color: #2c2c2c;
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 3px;
-    line-height:24px;
+    line-height: 24px;
     font-family: Arial, Helvetica, sans-serif;
-    display: block;
 }
 
 .site-github a
 {
     color: #cfcfcf;
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -146,15 +136,11 @@ body
     color: #4caf50;
 }
 
-.site-copyright
-{
-    display: block;
+.site-copyright {
     color: #afafaf;
-    font-size: 1rem;
+    font-size: 0.8rem;
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    font-family: monospace;
 }
 
 .site-copyright a
@@ -166,14 +152,4 @@ body
 .site-copyright a:hover
 {
     color: #2196f3;
-}
-
-.container-main
-{
-    position: fixed;
-    height: 100%;
-    margin-left: 30rem;
-    margin-top: 4rem;
-    margin-right: 4rem;
-    width: auto;
 }
