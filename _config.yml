@@ -17,7 +17,7 @@ title: Avatar-View
 email: brvachhani@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   An Android library for creating amazing avatars you have never seen before.
-baseurl: "avatar-view" # the subpath of your site, e.g. /blog
+baseurl: "/avatar-view" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: birjuvachhani
 github_username:  BirjuVachhani
