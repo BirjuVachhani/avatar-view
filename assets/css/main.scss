@@ -153,3 +153,53 @@ header p {
 {
     color: #2196f3;
 }
+
+.btn-download
+{
+    position: relative;
+}
+
+.right
+{
+    position: relative;
+}
+
+.btn-download span a
+{
+    text-decoration: none;
+    color: #f7393a;
+    padding: 0.8rem;
+    border:1px solid #f7393a;
+    border-radius: 5px;
+}
+
+.btn-download a:hover
+{
+    background-color: #f7393a;
+    color: #fcfcfc;
+}
+
+.btn-group span {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group span:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group span:hover {
+    background-color: #3e8e41;
+}
