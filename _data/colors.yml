@@ -1,0 +1,75 @@
+- xml: material_red
+  java: MaterialColors.RED
+  color: "#F44336"
+
+- xml: material_pink
+  java: MaterialColors.PINK
+  color: "#E91E63"
+
+- xml: material_purple
+  java: MaterialColors.PURPLE
+  color: "#9C27B0"
+
+- xml: material_deep_purple
+  java: MaterialColors.DEEP_PURPLE
+  color: "#673AB7"
+
+- xml: material_indigo
+  java: MaterialColors.INDIGO
+  color: "#3F51B5"
+
+- xml: material_blue
+  java: MaterialColors.BLUE
+  color: "#2196F3"
+
+- xml: material_light_blue
+  java: MaterialColors.LIGHT_BLUE
+  color: "#03A9F4"
+
+- xml: material_cyan
+  java: MaterialColors.CYAN
+  color: "#00BCD4"
+
+- xml: material_teal
+  java: MaterialColors.TEAL
+  color: "#009688"
+
+- xml: material_green
+  java: MaterialColors.GREEN
+  color: "#4CAF50"
+
+- xml: material_light_green
+  java: MaterialColors.LIGHT_GREEN
+  color: "#8BC34A"
+
+- xml: material_lime
+  java: MaterialColors.LIME
+  color: "#CDDC39"
+
+- xml: material_yellow
+  java: MaterialColors.YELLOW
+  color: "#FFEB3B"
+
+- xml: material_amber
+  java: MaterialColors.AMBER
+  color: "#FFC107"
+
+- xml: material_orange
+  java: MaterialColors.ORANGE
+  color: "#FF9800"
+
+- xml: material_deep_orange
+  java: MaterialColors.DEEP_ORANGE
+  color: "#FF5722"
+
+- xml: material_brown
+  java: MaterialColors.BROWN
+  color: "#795548"
+
+- xml: material_gray
+  java: MaterialColors.GRAY
+  color: "#9E9E9E"
+
+- xml: material_blue_gray
+  java: MaterialColors.BLUE_GRAY
+  color: "#607D8B"

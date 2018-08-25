@@ -1,0 +1,24 @@
+---
+layout: page
+title: Available Colors
+---
+
+<br/>
+<table>
+    <tr>
+        <th>No.</th>
+        <th>XML</th>
+        <th>Java</th>
+        <th>Color</th>
+        <th>Preview</th>
+    </tr>
+    {% for item in site.data.colors %}
+    <tr>
+        <td>{{ forloop.index }}</td>
+        <td>{{ item.xml }}</td>
+        <td>{{ item.java }}</td>
+        <td>{{ item.color }}</td>
+        <td><span class="color-preview" style="background-color:{{ item.color }};" /></td>
+    </tr>
+    {% endfor %}
+</table>
