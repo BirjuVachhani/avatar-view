@@ -17,8 +17,8 @@ Avatar-View is an android library
 Current Version: {{ site.version }}
 <br/>
 <div class="btn-download">
-    <span><a href="{{ site.github }}/archive/{{ site.version }}.zip">Source code (zip)</a></span>
-    <span><a href="{{ site.github }}/archive/{{ site.version }}.tar.gz">Source code (tar.gz)</a></span>
+    <span><a href="{{ site.github_url }}/archive/{{ site.version }}.zip">Source code (zip)</a></span>
+    <span><a href="{{ site.github_url }}/archive/{{ site.version }}.tar.gz">Source code (tar.gz)</a></span>
 
 </div>
 <br/>
