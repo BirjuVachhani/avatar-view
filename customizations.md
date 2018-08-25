@@ -35,7 +35,11 @@ This should be the first thing to set when working on avatars. Although default 
 
 ```xml
 <!-- xml -->
-app:mode="COLOR"
+<com.birjuvachhani.avatarview.AvatarView
+    android:id="@+id/avatarView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:mode="COLOR" />
 ```
 
 ```java
@@ -104,14 +108,26 @@ To use colors for avatars, set mode to **COLOR** and set any background color as
 **Avatar View** support all the **material primary colors** by **default**. Colors can be used as shown in the following example.
 Use **material_** prefix followed by color name for using colors in xml and use **MaterialColors** class for using colors in java. 
 
+For available colors information, have a look at [Available Colors]({{ site.data.links.material_colors }}).
+
 #### Example
 ##### XML
 ```xml
-app:backgroundColor="@color/material_blue"
+<com.birjuvachhani.avatarview.AvatarView
+    android:id="@+id/avatarView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:backgroundColor="@color/material_blue"
+    app:mode="COLOR" />
 ```
 
 ```xml
-app:backgroundColor="@color/material_amber"
+<com.birjuvachhani.avatarview.AvatarView
+    android:id="@+id/avatarView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:backgroundColor="@color/material_amber"
+    app:mode="COLOR" />
 ```
 
 ##### Java
@@ -122,4 +138,9 @@ avatarView.setBackgroundColor(MaterialColors.BLUE);
 avatarView.setBackgroundColor(MaterialColors.DEEP_ORANGE);
 ```
 
-For available colors information, have a look at [Available Colors]({{ site.data.links.material_colors }}).
+<div id="borders"></div>
+<br/>
+<br/>
+
+## Borders
+

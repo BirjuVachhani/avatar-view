@@ -1,0 +1,14 @@
+---
+layout: page
+title: Gradients
+---
+
+<div class="cards">
+    {% for item in site.data.gradients %}
+    <div class="card">
+        <div class="card-gradient" style="background-image: linear-gradient(45deg, {{ item.start-color }}, {{ item.end-color }});">
+        <p>{{ item.name }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>

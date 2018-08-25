@@ -189,3 +189,55 @@ header p {
     border-radius: 50rem;
 }
 
+.cards{
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1.5rem;
+}
+.card {
+    border-radius: 6px;
+    box-shadow: rgba(219, 219, 219, 0.56) 0px 16px 16px 0px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+    display: grid;
+    box-sizing: border-box;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.card-gradient {
+    height: 220px;
+    border-radius: 0px;
+    box-shadow: 0 3px 6px rgba(100,100,100,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background-color: #787878;
+    background-image: -webkit-linear-gradient(45deg, #2e3192, #1bffff);
+    background-image: linear-gradient(45deg, #2e3192, #1bffff);
+}
+
+.card-gradient p
+{
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fcfcfc;
+    transform: translate(-50%, -50%);
+}
+
+.card-container {
+    padding: 4px 25px 30px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: white;
+    display: block;
+}
+
+.card-container p{
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+}
+

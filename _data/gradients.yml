@@ -1,0 +1,143 @@
+- name:                   Ocean Blue
+  java:                   Gradients.OCEAN_BLUE
+  xml:                    gradient_ocean_blue
+  start-color:            "#2E3192"
+  end-color:              "#1bffff"
+
+- name:                   Sanguine
+  java:                   Gradients.SANGUINE
+  xml:                    gradient_sanguine
+  start-color:            "#D4145A"
+  end-color:              "#FBB03B"
+
+- name:                   Luscious Lime
+  java:                   Gradients.LUSCIOUS_LIME
+  xml:                    gradient_luscious_lime
+  start-color:            "#009245"
+  end-color:              "#FCEE21"
+
+- name:                   Purple Lake
+  java:                   Gradients.PURPLE_LAKE
+  xml:                    gradient_purple_lake
+  start-color:            "#662D8C"
+  end-color:              "#ED1E79"
+
+- name:                   Fresh Papaya
+  java:                   Gradients.FRESH_PAPAYA
+  xml:                    gradient_fresh_papaya
+  start-color:            "#ED1C24"
+  end-color:              "#FCEE21"
+
+- name:                   Ultramarine
+  java:                   Gradients.ULTRAMARINE
+  xml:                    gradient_ultramarine
+  start-color:            "#00A8C5"
+  end-color:              "#FFFF7E"
+
+- name:                   Pink Sugar
+  java:                   Gradients.PINK_SUGAR
+  xml:                    gradient_pink_sugar
+  start-color:            "#D74177"
+  end-color:              "#FFE98A"
+
+- name:                   Lemon Drizzle
+  java:                   Gradients.LEMON_DRIZZLE
+  xml:                    gradient_lemon__drizzle
+  start-color:            "#FB872B"
+  end-color:              "#D9E021"
+
+- name:                   Victoria Purple
+  java:                   Gradients.VICTORIA_PURPLE
+  xml:                    gradient_victoria_purple
+  start-color:            "#312A6C"
+  end-color:              "#852D91"
+
+- name:                   Spring Greens
+  java:                   Gradients.SPRING_GREENS
+  xml:                    gradient_spring_greens
+  start-color:            "#009E00"
+  end-color:              "#FFFF96"
+
+- name:                   Mystic Mauve
+  java:                   Gradients.MYSTIC__MAUVE
+  xml:                    gradient_mystic_mauve
+  start-color:            "#B066FE"
+  end-color:              "#63E2FF"
+
+- name:                   Reflex Silver
+  java:                   Gradients.REFLEX_SILVER
+  xml:                    gradient_reflex_silver
+  start-color:            "#808080"
+  end-color:              "#E6E6E6"
+
+- name:                   Neon Glow
+  java:                   Gradients.NEON_GLOW
+  xml:                    gradient_neon_glow
+  start-color:            "#00FFA1"
+  end-color:              "#00FFFF"
+
+- name:                   Berry Smoothie
+  java:                   Gradients.BERRY_SMOOTHIE
+  xml:                    gradient_berry_smoothie
+  start-color:            "#8E78FF"
+  end-color:              "#FC7D7B"
+
+- name:                   New Leaf
+  java:                   Gradients.NEW__LEAF
+  xml:                    gradient_new_leaf
+  start-color:            "#00537E"
+  end-color:              "#3AA17E"
+
+- name:                   Cotton Candy
+  java:                   Gradients.COTTON_CANDY
+  xml:                    gradient_cotton_candy
+  start-color:            "#FCA5F1"
+  end-color:              "#B5FFFF"
+
+- name:                   Pixie Dust
+  java:                   Gradients.PIXIE_DUST
+  xml:                    gradient_pixie_dust
+  start-color:            "#D585FF"
+  end-color:              "#00FFEE"
+
+- name:                   Fizzy Peach
+  java:                   Gradients.FIZZY_PEACH
+  xml:                    gradient_fizzy_peach
+  start-color:            "#F24645"
+  end-color:              "#EBC08D"
+
+- name:                   Sweet Dream
+  java:                   Gradients.SWEET_DREAM
+  xml:                    gradient_sweet_dream
+  start-color:            "#3A3897"
+  end-color:              "#A3A1FF"
+
+- name:                   Firebrick
+  java:                   Gradients.FIREBRICK
+  xml:                    gradient_firebrick
+  start-color:            "#45145A"
+  end-color:              "#FF5300"
+
+- name:                   Wrought Iron
+  java:                   Gradients.WROUGHT_IRON
+  xml:                    gradient_wrought_iron
+  start-color:            "#333333"
+  end-color:              "#5a5454"
+
+- name:                   Deep Sea
+  java:                   Gradients.DEEP_SEA
+  xml:                    gradient_deep_sea
+  start-color:            "#4F00BC"
+  end-color:              "#29ABE2"
+
+- name:                   Coastal Breeze
+  java:                   Gradients.COASTAL_BREEZE
+  xml:                    gradient_coastal_breeze
+  start-color:            "#00B7FF"
+  end-color:              "#FFFFC7"
+
+- name:                   Evening Delight
+  java:                   Gradients.EVENING_DELIGHT
+  xml:                    gradient_evening_delight
+  start-color:            "#93278F"
+  end-color:              "#00A99D"
