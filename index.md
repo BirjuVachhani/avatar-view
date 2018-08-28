@@ -8,6 +8,7 @@ layout: page
 # Introducing Avatar View
 Avatar-View is an android library
 
+Please note that this site is still under development.
 
 
 <div id="download"></div>
