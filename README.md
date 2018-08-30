@@ -1,8 +1,9 @@
 # avatar-view
-Library for adding awesome avatars in your andorid project
+Library for adding awesome avatars in your andorid project.
+See more at [https://birjuvachhani.github.io/avatar-view/](https://birjuvachhani.github.io/avatar-view/)
 
 ## Current Version
-#### AvatarView v1.0.0-alpha
+#### AvatarView v1.0.0
 
 ## Gradle Dependency
 
@@ -21,7 +22,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.BirjuVachhani:avatar-view:v1.0.0-alpha'
+    implementation 'com.github.BirjuVachhani:avatar-view:1.0.0'
 }
 ```
 
