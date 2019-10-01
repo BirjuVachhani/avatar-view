@@ -2,8 +2,9 @@ package com.birjuvachhani.avatarview;
 
 import android.content.Context;
 import android.graphics.Shader;
-import android.support.annotation.ColorInt;
 import android.util.DisplayMetrics;
+
+import androidx.annotation.ColorInt;
 
 /**
  * Created by Birju Vachhani on 21-07-2018.
